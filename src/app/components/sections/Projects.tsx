@@ -14,7 +14,7 @@ const Projects = () => {
                             <div className="text-stone-300 text-[10px] font-extrabold uppercase leading-tight">CLICK HERE TO VISIT</div>
                             <div className="text-white text-lg font-extrabold uppercase leading-tight">HTML TUTORIAL</div>
 
-                             <ArrowUpRight className="absolute right-5 bottom-4.5" size={25} />
+                             <ArrowUpRight className="absolute right-5 bottom-4.5 text-white" size={25} />
                         </div>
                     </Link>
                 </div>
@@ -26,7 +26,7 @@ const Projects = () => {
                             <div className="text-stone-300 text-[10px] font-extrabold uppercase leading-tight">CLICK HERE TO VISIT</div>
                             <div className="text-white text-lg font-extrabold uppercase leading-tight">HTML TUTORIAL</div>
 
-                             <ArrowUpRight className="absolute right-5 bottom-4.5" size={25} />
+                             <ArrowUpRight className="absolute right-5 bottom-4.5 text-white" size={25} />
                         </div>
                     </Link>
                 </div>

@@ -11,12 +11,12 @@ const MAIN_NAVIGATION = [
     },
     {
       id:3,
-      href:'/',
+      href:'/experience',
       title:'Experience'
     },
     {
       id:4,
-      href:'/',
+      href:'/contact',
       title:'Contact'
     }
   ]

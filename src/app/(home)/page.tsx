@@ -1,10 +1,10 @@
 
 import Container from "../components/Container";
 import { Poppins } from "next/font/google";
-import {Represent as RepresentSection} from "./components/sections/Represent"
-import {Skils as SkilsSection} from "./components/sections/Skils"
-import {Projects as ProjectsSection} from "./components/sections/Projects"
-import { Experience as ExperienceSection } from "./components/sections/Experience";
+import {Represent as RepresentSection} from "../components/sections/Represent"
+import {Skils as SkilsSection} from "../components/sections/Skils"
+import {Projects as ProjectsSection} from "../components/sections/Projects"
+import { Experience as ExperienceSection } from "../components/sections/Experience";
 const popins = Poppins({
   variable: "--font-popins",
   subsets: ["latin"],

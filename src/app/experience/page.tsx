@@ -1,7 +1,7 @@
 
 import Container from "../components/Container";
 import { Poppins } from "next/font/google";
-import { Projects as ProjectsSection} from "../components/sections/Projects"
+import { Experience as ExperienceSection} from "../components/sections/Experience"
 const popins = Poppins({
   variable: "--font-popins",
   subsets: ["latin"],
@@ -9,11 +9,11 @@ const popins = Poppins({
 });
 
 
-export default function Projects() {
+export default function Experience() {
   return (
       <main className="bg-layout-dark-yellow pt-24.5 pb-26.5">
       <Container>    
-        <ProjectsSection/>
+        <ExperienceSection/>
       </Container>
       </main>
   );
