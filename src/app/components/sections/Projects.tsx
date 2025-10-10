@@ -1,14 +1,20 @@
 import Link from "next/link"
 import Image from "next/image"
 import { ArrowUpRight } from 'lucide-react';
-const Projects = () => {
+import { FC } from 'react';
+
+interface ProjectsProps {
+    classes?: string;
+}
+
+const Projects: FC<ProjectsProps> = ({classes}) => {
     return(
-        <div className="flex flex-col items-center gap-7 w-full">
+        <div className={`flex flex-col items-center gap-7 w-full ${classes ? classes : ''}`}>
             <div className="text-red-400 text-4xl font-extrabold uppercase leading-9 text-center">Projects</div>
 
             <div className="w-full flex flex-wrap gap-7.5">
                 <div className="grow-1">
-                    <Link className="rounded-2xl overflow-hidden block" href="/">
+                    <Link className="rounded-2xl overflow-hidden block opacity-90 hover:opacity-100"  href="/">
                         <Image alt="html picture" src="/projects/html.png" width={390} height={235}/>
                         <div className="bg-card-desc pt-3 pl-5 pr-12 pb-3.5 relative">
                             <div className="text-stone-300 text-[10px] font-extrabold uppercase leading-tight">CLICK HERE TO VISIT</div>
@@ -20,7 +26,7 @@ const Projects = () => {
                 </div>
                 <div className="grow-1">
 
-                    <Link className="rounded-2xl overflow-hidden block" href="/">
+                    <Link className="rounded-2xl overflow-hidden block opacity-90 hover:opacity-100" href="/">
                         <Image alt="html picture" src="/projects/css.png" width={390} height={235}/>
                         <div className="bg-card-desc pt-3 pl-5 pr-12 pb-3.5 relative">
                             <div className="text-stone-300 text-[10px] font-extrabold uppercase leading-tight">CLICK HERE TO VISIT</div>

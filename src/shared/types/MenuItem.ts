@@ -1,6 +1,7 @@
 type MenuItemProps = {
 href: string,
-title: string
+title: string,
+isActive: boolean
 }
 
 type MenuItemData = {

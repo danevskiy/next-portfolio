@@ -2,7 +2,7 @@
 import Container from "../components/Container";
 import { Poppins } from "next/font/google";
 import {Represent as RepresentSection} from "../components/sections/Represent"
-import {Skils as SkilsSection} from "../components/sections/Skils"
+import {Skills as SkillsSection} from "../components/sections/Skills"
 import {Projects as ProjectsSection} from "../components/sections/Projects"
 import { Experience as ExperienceSection } from "../components/sections/Experience";
 const popins = Poppins({
@@ -18,9 +18,9 @@ export default function Home() {
       <Container>
         <div className={`${popins.variable} antialiased flex flex-col items-center w-full text-white`}>
           <RepresentSection/>
-          <SkilsSection/>
+          <SkillsSection/>
           <ProjectsSection/>
-          <ExperienceSection/>
+          <ExperienceSection classes={'mt-25'}/>
 
         </div>
       </Container>

@@ -1,30 +1,30 @@
-const SKILS_LIST = [
+const SKILLS_LIST = [
     {
       id:1,
-      url:"/skils/javascript.png",
+      url:"/skills/javascript.png",
       alt:"javascript icon"
     },
     {
       id:2,
-      url:"/skils/nodejs.png",
+      url:"/skills/nodejs.png",
       alt:"nodejs icon"
     },
     {
       id:3,
-      url:"/skils/html.png",
+      url:"/skills/html.png",
       alt:"html icon"
     },
     {
       id:4,
-      url:"/skils/css.png",
+      url:"/skills/css.png",
       alt:"css icon"
     },
     {
       id:5,
-      url:"/skils/reactjs.png",
+      url:"/skills/reactjs.png",
       alt:"reactjs icon"
     }
    
   ]
 
-export default SKILS_LIST
+export default SKILLS_LIST

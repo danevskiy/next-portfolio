@@ -1,10 +1,15 @@
 import DevLogo from "../DevLogo";
+import { FC } from 'react';
 
-const Represent = () => {
+interface RepresentProps {
+    classes?: string;
+}
+
+const Represent: FC<RepresentProps> = ({classes}) => {
     return (
     <>
     <DevLogo/>
-    <div className="text-[55px] font-semibold text-center mt-10 leading-16">
+    <div className={`text-[55px] font-semibold text-center mt-10 leading-16 ${classes ? classes : ''}`}>
     I do code and <br /> make content 
     <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-purple-600"> about it!</span>
     </div>
