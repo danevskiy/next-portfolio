@@ -21,7 +21,6 @@ export default function Home() {
           <SkillsSection/>
           <ProjectsSection/>
           <ExperienceSection classes={'mt-25'}/>
-
         </div>
       </Container>
       </main>
